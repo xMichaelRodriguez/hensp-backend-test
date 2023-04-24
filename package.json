@@ -1,0 +1,19 @@
+{
+  "name": "hensp-backend-test",
+  "version": "1.0.0",
+  "description": "Backend Test for HENSP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hensp/hensp-backend-test.git"
+  },
+  "author": "HENSP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hensp/hensp-backend-test/issues"
+  },
+  "homepage": "https://github.com/hensp/hensp-backend-test#readme"
+}
