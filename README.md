@@ -37,7 +37,7 @@ Puedes agregar toda la información que consideres ideal para el PR.
 
 La siguiente lista de requerimientos únicamente incrementan tu puntaje, no pasa nada si no los haces.
 
-- Utiliza _conventional commits_ para escribir tus mensajes en git.
+`- Utiliza _conventional commits_ para escribir tus mensajes en git.
 - Crea un docker-compose para tu proyecto.
 - Utiliza Typescript _(aplica si usas Express.js)_.
 - Utiliza un ORM (Prisma, Knex o Sequelize) _(aplica si usas Express.js)_.
