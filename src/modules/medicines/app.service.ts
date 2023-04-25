@@ -20,6 +20,11 @@ export class AppService {
   ) {}
   getMedicines(): Promise<Medicine[]> {
     return this.medicineRepository.find();
+
+    // return this.medicineRepository
+    //   .createQueryBuilder('medicines')
+    //   .where('medicines.name like :name', { name: `${name}%` })
+    //   .getMany();
   }
 
   async createMedicine(createMedicine: CreateMedicineDto) {
