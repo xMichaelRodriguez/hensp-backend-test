@@ -1,0 +1,7 @@
+/* eslint-disable prettier/prettier */
+import { createParamDecorator, ExecutionContext } from '@nestjs/common';
+// get user decorator
+export const GetUser = createParamDecorator((_data, ctx: ExecutionContext) => {
+  const request = ctx.switchToHttp().getRequest();
+  return request.user;
+});
