@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/hensp/hensp-backend-test/issues"
   },
-  "homepage": "https://github.com/hensp/hensp-backend-test#readme"
+  "homepage": "https://github.com/hensp/hensp-backend-test#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.2.4",
+    "sequelize": "^6.31.0"
+  }
 }
